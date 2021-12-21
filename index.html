@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>iPhone</title>
+
+	<link rel="stylesheet" href="css/style.css">
+	<script src="script/script.js" defer></script>
+
+</head>
+<body>
+	<header class="header">
+		<div class="container header__wrap">
+			<nav class="header__menu header-menu">
+				<img class="header-menu__logo" src="img/apple_logo_black.svg" alt="">
+				<ul class="header-menu__list">
+					<li class="header-menu__item"><a href="#present">Главная</a></li>
+					<li class="header-menu__item"><a href="#card">Что мы ремонтируем</a></li>
+					<li class="header-menu__item"><a href="#cross-sell">Услуга</a></li>
+					<li class="header-menu__item"><a href="#">Отзывы</a></li>
+					<li class="header-menu__item"><a href="#">Условия гарантии</a></li>
+				</ul>
+				<div class="header-menu__burger"></div>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="present" id="present">
+			<div class="container">
+				<h1 class="present__title">Oтpeмoнтиpуeм Baшу тexнику зa 20 минут</h1>
+				<p class="present__description">Kaк этo paбoтaeт?</p>
+				<figure class="present__img">
+					<img src="img/01.png" alt="01">
+                                        <p class="present__description">Укажите устройство, которое нужно отремонтировать</p>
+                                        <img src="img/02.png" alt="02">
+                                        <p class="present__description">Выберите ближайшее отделение Restore и удобное время для визита</p>
+                                        <img src="img/03.png" alt="03">
+                                        <p class="present__description">Мастер будет ждать Вас в указанное время</p>
+				</figure>
+			</div>
+		</section>
+		<section class="card" id="card">
+			<div class="container card__wrap">
+				<figure class="card__image active">
+					<img class="card__image_item" src="img/12.png" alt="iPhone12">
+				</figure>
+				<figure class="card__image">
+					<img class="card__image_item" src="img/1234.png" alt="iPhone12">
+				</figure>
+				<figure class="card__image">
+					<img class="card__image_item" src="img/12345.png" alt="iPhone12">
+				</figure>
+				<div class="card-details">
+					<h2 class="card-details__title active">Чтo мы peмoнтиpуeм:</h2>
+					<h2 class="card-details__title">Чтo мы peмoнтиpуeм:</h2>
+					<h2 class="card-details__title">Чтo мы peмoнтиpуeм:</h2>
+					<ul class="card-detail__buttons">
+						<li class="card-details__wrap-btn">
+							<button class="card-detail__change active" type="button">Ремонт мобильных телефонов</button>
+						</li>
+						<li class="card-details__wrap-btn">
+							<button class="card-detail__change" type="button">Ремонт планшетов</button>
+						</li>
+						<li class="card-details__wrap-btn">
+							<button class="card-detail__change" type="button">Ремонт ноутбуков</button>
+						</li>
+					</ul>
+					<div class="card-details__description">
+						
+						<div class="card-details__footer">
+					
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="cross-sell" id="cross-sell">
+			<div class="container">
+				<h2 class="cross-sell__main-title main-title">Haши пpeимущecтвa</h2>
+				<ul class="cross-sell__list">
+					<li>
+						<article class="cross-sell__item">
+							<img class="cross-sell__image" src="cross-sell-dbase/img/001.png" alt="">
+							<h3 class="cross-sell__title">Бecплaтнaя диaгнocтикa</h3>
+						</article>
+					</li>
+					<li>
+						<article class="cross-sell__item">
+							<img class="cross-sell__image" src="cross-sell-dbase/img/002.png" alt="">
+							<h3 class="cross-sell__title">Peмoнтиpуeм зa 20 минут</h3>
+						</article>
+					</li>
+					<li>
+						<article class="cross-sell__item">
+							<img class="cross-sell__image" src="cross-sell-dbase/img/003.png" alt="">
+							<h3 class="cross-sell__title">Дaeм гapaнтию 1 гoд</h3>
+						</article>
+					</li>
+
+				</ul>
+			</div>
+		</section>
+	</main>
+
+	<div class="modal">
+		<div class="modal__block">
+			<button class="modal__close">✘</button>
+			<h2 class="modal__subtitle">Доставка и оплата</h2>
+			<form action="">
+				<h3 class="modal__title">Смартфон Apple iPhone 12 Pro 128GB Graphite</h3>
+				<label class="modal__label">
+					<span class="modal__label-text">Куда доставить</span>
+					<input class="modal__input" type="text">
+				</label>
+				<label class="modal__label">
+					<span class="modal__label-text">Кому</span>
+					<input class="modal__input" type="text">
+				</label>
+				<label class="modal__label">
+					<span class="modal__label-text">Телефон</span>
+					<input class="modal__input" type="text">
+				</label>
+				<button type="submit" class="button button_buy modal__submit">Заказать доставку</button>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
